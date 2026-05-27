@@ -6,6 +6,10 @@ This is a guide to install Marlin firmware for the BTT SKR MINI E3 V3 (on Linux)
 
 The `.h` files have been modified for my usage (Sherpa Mini extruder, etc.). Sample configurations can be found at [MarlinFirmware/Configurations](https://github.com/MarlinFirmware/Configurations/).
 
+### Sherpa mini (LDO)
+
+Depending of the type of motor you have installed (LDO-36STH17 / LDO-36STH20) you need to change the current in Configuration_adv.h to max 0.35A / max 1A. Currently set to default 680mA.
+
 ## Steps
 
 - Download [VSCode](https://code.visualstudio.com/)
